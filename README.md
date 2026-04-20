@@ -58,42 +58,45 @@ A comprehensive fitness tracking application built with modern Android technolog
 
 ## Screenshots
 
-Current screenshots in `screenshots/` are enough to show the app flow and theme support.
+Compact thumbnail gallery (click any image to open full size).
 
-### Authentication
-![Login Light](screenshots/01_login_screen_light.png)
-![Login Dark](screenshots/02_login_screen_dark.png)
-![Sign Up Light](screenshots/03_signup_screen_light.png)
-![Sign Up Dark](screenshots/04_signup_screen_dark.png)
-![Profile Creation Light](screenshots/07_profile_creation_screen_light.png)
-![Profile Creation Dark](screenshots/08_profile_creation_screen_dark.png)
+### Authentication (Slide)
+<p>
+  <a href="screenshots/01_login_screen_light.png"><img src="screenshots/01_login_screen_light.png" width="180" alt="Login Light"/></a>
+  <a href="screenshots/02_login_screen_dark.png"><img src="screenshots/02_login_screen_dark.png" width="180" alt="Login Dark"/></a>
+  <a href="screenshots/03_signup_screen_light.png"><img src="screenshots/03_signup_screen_light.png" width="180" alt="Sign Up Light"/></a>
+  <a href="screenshots/04_signup_screen_dark.png"><img src="screenshots/04_signup_screen_dark.png" width="180" alt="Sign Up Dark"/></a>
+  <a href="screenshots/07_profile_creation_screen_light.png"><img src="screenshots/07_profile_creation_screen_light.png" width="180" alt="Profile Creation Light"/></a>
+  <a href="screenshots/08_profile_creation_screen_dark.png"><img src="screenshots/08_profile_creation_screen_dark.png" width="180" alt="Profile Creation Dark"/></a>
+</p>
 
-### Home and Exercise
-![Home Dark](screenshots/10_home_screen_dark.png)
-![Exercise Light](screenshots/11_exercise_tab_screen_light.png)
-![Exercise Dark](screenshots/12_exercise_tab_screen_dark.png)
-![Muscle Group Dark](screenshots/14_muscle_group_list_dark.png)
+### Home and Exercise (Slide)
+<p>
+  <a href="screenshots/10_home_screen_dark.png"><img src="screenshots/10_home_screen_dark.png" width="180" alt="Home Dark"/></a>
+  <a href="screenshots/11_exercise_tab_screen_light.png"><img src="screenshots/11_exercise_tab_screen_light.png" width="180" alt="Exercise Light"/></a>
+  <a href="screenshots/12_exercise_tab_screen_dark.png"><img src="screenshots/12_exercise_tab_screen_dark.png" width="180" alt="Exercise Dark"/></a>
+  <a href="screenshots/14_muscle_group_list_dark.png"><img src="screenshots/14_muscle_group_list_dark.png" width="180" alt="Muscle Group Dark"/></a>
+</p>
 
-### Workouts
-![Workout List Dark](screenshots/22_workout_list_dark.png)
-![Add Workout Light](screenshots/23_add_edit_workout_light.png)
-![Add Workout Dark](screenshots/24_add_edit_workout_dark.png)
+### Workouts (Slide)
+<p>
+  <a href="screenshots/22_workout_list_dark.png"><img src="screenshots/22_workout_list_dark.png" width="180" alt="Workout List Dark"/></a>
+  <a href="screenshots/23_add_edit_workout_light.png"><img src="screenshots/23_add_edit_workout_light.png" width="180" alt="Add Workout Light"/></a>
+  <a href="screenshots/24_add_edit_workout_dark.png"><img src="screenshots/24_add_edit_workout_dark.png" width="180" alt="Add Workout Dark"/></a>
+</p>
 
-### Profile
-![Profile Dark](screenshots/30_profile_screen_dark.png)
+### Profile, Schedule, Progress, Settings (Slide)
+<p>
+  <a href="screenshots/30_profile_screen_dark.png"><img src="screenshots/30_profile_screen_dark.png" width="180" alt="Profile Dark"/></a>
+  <a href="screenshots/33_schedule_screen_light.png"><img src="screenshots/33_schedule_screen_light.png" width="180" alt="Schedule Light"/></a>
+  <a href="screenshots/34_schedule_screen_dark.png"><img src="screenshots/34_schedule_screen_dark.png" width="180" alt="Schedule Dark"/></a>
+  <a href="screenshots/35_progress_screen_light.png"><img src="screenshots/35_progress_screen_light.png" width="180" alt="Progress Light"/></a>
+  <a href="screenshots/36_progress_screen_dark.png"><img src="screenshots/36_progress_screen_dark.png" width="180" alt="Progress Dark"/></a>
+  <a href="screenshots/37_settings_screen_light.png"><img src="screenshots/37_settings_screen_light.png" width="180" alt="Settings Light"/></a>
+  <a href="screenshots/38_settings_screen_dark.png"><img src="screenshots/38_settings_screen_dark.png" width="180" alt="Settings Dark"/></a>
+</p>
 
-### Schedule and Progress
-![Schedule Light](screenshots/33_schedule_screen_light.png)
-![Schedule Dark](screenshots/34_schedule_screen_dark.png)
-![Progress Light](screenshots/35_progress_screen_light.png)
-![Progress Dark](screenshots/36_progress_screen_dark.png)
-
-### Settings
-![Settings Light](screenshots/37_settings_screen_light.png)
-![Settings Dark](screenshots/38_settings_screen_dark.png)
-
-> For capture steps and naming conventions, see `SCREENSHOTS_GUIDE.md`.
-> You can add missing screens later; this current set already gives a clear product overview.
+> Tip: On GitHub, these grouped rows behave like a slide strip while keeping the README lightweight.
 
 ## Implemented Screens
 
