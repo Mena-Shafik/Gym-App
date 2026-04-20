@@ -58,59 +58,63 @@ A comprehensive fitness tracking application built with modern Android technolog
 
 ## Screenshots
 
-Mini carousel (GitHub-friendly, no JavaScript): use the slide links below.
+Collapsible image gallery (click each section to expand).
 
-`[1]` [Auth](#slide-1-auth) • `[2]` [Home/Exercise](#slide-2-home-exercise) • `[3]` [Workouts](#slide-3-workouts) • `[4]` [Profile](#slide-4-profile) • `[5]` [Schedule/Progress](#slide-5-schedule-progress) • `[6]` [Settings](#slide-6-settings)
+<details open>
+  <summary><strong>Authentication</strong></summary>
+  <p>
+    <a href="screenshots/01_login_screen_light.png"><img src="screenshots/01_login_screen_light.png" height="150" alt="Login Light"/></a>
+    <a href="screenshots/02_login_screen_dark.png"><img src="screenshots/02_login_screen_dark.png" height="150" alt="Login Dark"/></a>
+    <a href="screenshots/03_signup_screen_light.png"><img src="screenshots/03_signup_screen_light.png" height="150" alt="Sign Up Light"/></a>
+    <a href="screenshots/04_signup_screen_dark.png"><img src="screenshots/04_signup_screen_dark.png" height="150" alt="Sign Up Dark"/></a>
+    <a href="screenshots/07_profile_creation_screen_light.png"><img src="screenshots/07_profile_creation_screen_light.png" height="150" alt="Profile Creation Light"/></a>
+    <a href="screenshots/08_profile_creation_screen_dark.png"><img src="screenshots/08_profile_creation_screen_dark.png" height="150" alt="Profile Creation Dark"/></a>
+  </p>
+</details>
 
-### Slide 1 - Auth
-<a id="slide-1-auth"></a>
-<p>
-  <a href="screenshots/01_login_screen_light.png"><img src="screenshots/01_login_screen_light.png" height="150" alt="Login Light"/></a>
-  <a href="screenshots/02_login_screen_dark.png"><img src="screenshots/02_login_screen_dark.png" height="150" alt="Login Dark"/></a>
-  <a href="screenshots/03_signup_screen_light.png"><img src="screenshots/03_signup_screen_light.png" height="150" alt="Sign Up Light"/></a>
-  <a href="screenshots/04_signup_screen_dark.png"><img src="screenshots/04_signup_screen_dark.png" height="150" alt="Sign Up Dark"/></a>
-  <a href="screenshots/07_profile_creation_screen_light.png"><img src="screenshots/07_profile_creation_screen_light.png" height="150" alt="Profile Creation Light"/></a>
-  <a href="screenshots/08_profile_creation_screen_dark.png"><img src="screenshots/08_profile_creation_screen_dark.png" height="150" alt="Profile Creation Dark"/></a>
-</p>
+<details>
+  <summary><strong>Home and Exercise</strong></summary>
+  <p>
+    <a href="screenshots/10_home_screen_dark.png"><img src="screenshots/10_home_screen_dark.png" height="150" alt="Home Dark"/></a>
+    <a href="screenshots/11_exercise_tab_screen_light.png"><img src="screenshots/11_exercise_tab_screen_light.png" height="150" alt="Exercise Light"/></a>
+    <a href="screenshots/12_exercise_tab_screen_dark.png"><img src="screenshots/12_exercise_tab_screen_dark.png" height="150" alt="Exercise Dark"/></a>
+    <a href="screenshots/14_muscle_group_list_dark.png"><img src="screenshots/14_muscle_group_list_dark.png" height="150" alt="Muscle Group Dark"/></a>
+  </p>
+</details>
 
-### Slide 2 - Home and Exercise
-<a id="slide-2-home-exercise"></a>
-<p>
-  <a href="screenshots/10_home_screen_dark.png"><img src="screenshots/10_home_screen_dark.png" height="150" alt="Home Dark"/></a>
-  <a href="screenshots/11_exercise_tab_screen_light.png"><img src="screenshots/11_exercise_tab_screen_light.png" height="150" alt="Exercise Light"/></a>
-  <a href="screenshots/12_exercise_tab_screen_dark.png"><img src="screenshots/12_exercise_tab_screen_dark.png" height="150" alt="Exercise Dark"/></a>
-  <a href="screenshots/14_muscle_group_list_dark.png"><img src="screenshots/14_muscle_group_list_dark.png" height="150" alt="Muscle Group Dark"/></a>
-</p>
+<details>
+  <summary><strong>Workouts</strong></summary>
+  <p>
+    <a href="screenshots/22_workout_list_dark.png"><img src="screenshots/22_workout_list_dark.png" height="150" alt="Workout List Dark"/></a>
+    <a href="screenshots/23_add_edit_workout_light.png"><img src="screenshots/23_add_edit_workout_light.png" height="150" alt="Add Workout Light"/></a>
+    <a href="screenshots/24_add_edit_workout_dark.png"><img src="screenshots/24_add_edit_workout_dark.png" height="150" alt="Add Workout Dark"/></a>
+  </p>
+</details>
 
-### Slide 3 - Workouts
-<a id="slide-3-workouts"></a>
-<p>
-  <a href="screenshots/22_workout_list_dark.png"><img src="screenshots/22_workout_list_dark.png" height="150" alt="Workout List Dark"/></a>
-  <a href="screenshots/23_add_edit_workout_light.png"><img src="screenshots/23_add_edit_workout_light.png" height="150" alt="Add Workout Light"/></a>
-  <a href="screenshots/24_add_edit_workout_dark.png"><img src="screenshots/24_add_edit_workout_dark.png" height="150" alt="Add Workout Dark"/></a>
-</p>
+<details>
+  <summary><strong>Profile</strong></summary>
+  <p>
+    <a href="screenshots/30_profile_screen_dark.png"><img src="screenshots/30_profile_screen_dark.png" height="150" alt="Profile Dark"/></a>
+  </p>
+</details>
 
-### Slide 4 - Profile
-<a id="slide-4-profile"></a>
-<p>
-  <a href="screenshots/30_profile_screen_dark.png"><img src="screenshots/30_profile_screen_dark.png" height="150" alt="Profile Dark"/></a>
-</p>
+<details>
+  <summary><strong>Schedule and Progress</strong></summary>
+  <p>
+    <a href="screenshots/33_schedule_screen_light.png"><img src="screenshots/33_schedule_screen_light.png" height="150" alt="Schedule Light"/></a>
+    <a href="screenshots/34_schedule_screen_dark.png"><img src="screenshots/34_schedule_screen_dark.png" height="150" alt="Schedule Dark"/></a>
+    <a href="screenshots/35_progress_screen_light.png"><img src="screenshots/35_progress_screen_light.png" height="150" alt="Progress Light"/></a>
+    <a href="screenshots/36_progress_screen_dark.png"><img src="screenshots/36_progress_screen_dark.png" height="150" alt="Progress Dark"/></a>
+  </p>
+</details>
 
-### Slide 5 - Schedule and Progress
-<a id="slide-5-schedule-progress"></a>
-<p>
-  <a href="screenshots/33_schedule_screen_light.png"><img src="screenshots/33_schedule_screen_light.png" height="150" alt="Schedule Light"/></a>
-  <a href="screenshots/34_schedule_screen_dark.png"><img src="screenshots/34_schedule_screen_dark.png" height="150" alt="Schedule Dark"/></a>
-  <a href="screenshots/35_progress_screen_light.png"><img src="screenshots/35_progress_screen_light.png" height="150" alt="Progress Light"/></a>
-  <a href="screenshots/36_progress_screen_dark.png"><img src="screenshots/36_progress_screen_dark.png" height="150" alt="Progress Dark"/></a>
-</p>
-
-### Slide 6 - Settings
-<a id="slide-6-settings"></a>
-<p>
-  <a href="screenshots/37_settings_screen_light.png"><img src="screenshots/37_settings_screen_light.png" height="150" alt="Settings Light"/></a>
-  <a href="screenshots/38_settings_screen_dark.png"><img src="screenshots/38_settings_screen_dark.png" height="150" alt="Settings Dark"/></a>
-</p>
+<details>
+  <summary><strong>Settings</strong></summary>
+  <p>
+    <a href="screenshots/37_settings_screen_light.png"><img src="screenshots/37_settings_screen_light.png" height="150" alt="Settings Light"/></a>
+    <a href="screenshots/38_settings_screen_dark.png"><img src="screenshots/38_settings_screen_dark.png" height="150" alt="Settings Dark"/></a>
+  </p>
+</details>
 
 ## Implemented Screens
 
