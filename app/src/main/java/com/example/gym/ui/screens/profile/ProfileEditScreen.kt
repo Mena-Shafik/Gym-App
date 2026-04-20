@@ -53,7 +53,8 @@ fun ProfileEditScreen(
     userProfile: UserProfile,
     onSave: (UserProfile) -> Unit,
     onCancel: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    isNewUser: Boolean = false
 ) {
     var draftProfile by rememberSaveable(stateSaver = UserProfileSaver) { mutableStateOf(userProfile) }
     val imagePickerLauncher = rememberLauncherForActivityResult(
@@ -68,7 +69,7 @@ fun ProfileEditScreen(
         modifier = modifier.fillMaxSize(),
         topBar = {
             AppTopBar(
-                title = "Edit Profile",
+                title = if (isNewUser) "Complete Your Profile" else "Edit Profile",
                 showBackButton = true,
                 showProfileIcon = false,
                 showSettingsIcon = false,

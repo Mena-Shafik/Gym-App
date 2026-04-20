@@ -56,26 +56,68 @@ A comprehensive fitness tracking application built with modern Android technolog
 - 12-hour or 24-hour time format preference
 - Theme persistence across sessions
 
+## Screenshots
+
+Current screenshots in `screenshots/` are enough to show the app flow and theme support.
+
+### Authentication
+![Login Light](screenshots/01_login_screen_light.png)
+![Login Dark](screenshots/02_login_screen_dark.png)
+![Sign Up Light](screenshots/03_signup_screen_light.png)
+![Sign Up Dark](screenshots/04_signup_screen_dark.png)
+![Profile Creation Light](screenshots/07_profile_creation_screen_light.png)
+![Profile Creation Dark](screenshots/08_profile_creation_screen_dark.png)
+
+### Home and Exercise
+![Home Dark](screenshots/10_home_screen_dark.png)
+![Exercise Light](screenshots/11_exercise_tab_screen_light.png)
+![Exercise Dark](screenshots/12_exercise_tab_screen_dark.png)
+![Muscle Group Dark](screenshots/14_muscle_group_list_dark.png)
+
+### Workouts
+![Workout List Dark](screenshots/22_workout_list_dark.png)
+![Add Workout Light](screenshots/23_add_edit_workout_light.png)
+![Add Workout Dark](screenshots/24_add_edit_workout_dark.png)
+
+### Profile
+![Profile Dark](screenshots/30_profile_screen_dark.png)
+
+### Schedule and Progress
+![Schedule Light](screenshots/33_schedule_screen_light.png)
+![Schedule Dark](screenshots/34_schedule_screen_dark.png)
+![Progress Light](screenshots/35_progress_screen_light.png)
+![Progress Dark](screenshots/36_progress_screen_dark.png)
+
+### Settings
+![Settings Light](screenshots/37_settings_screen_light.png)
+![Settings Dark](screenshots/38_settings_screen_dark.png)
+
+> For capture steps and naming conventions, see `SCREENSHOTS_GUIDE.md`.
+> You can add missing screens later; this current set already gives a clear product overview.
+
 ## Implemented Screens
 
 | Route | Screen | Description |
 |-------|--------|-------------|
-| `Login` | Login Screen | Email/password authentication with biometric option |
-| `SignUp` | Sign Up Screen | New user registration |
-| `BiometricLogin` | Biometric Login | Fingerprint/face authentication |
-| `Home` | Home Screen | Dashboard with user greeting and quick stats |
-| `Exercise` | Exercise Library | Tabbed interface (Muscle Group, Workout, Equipment) |
-| `Profile` | User Profile | Display profile information with edit option |
-| `ProfileEdit` | Edit Profile | Modify user details with validation |
-| `MuscleGroupExercises` | Muscle Group List | List of exercises by muscle group |
-| `ExerciseDetail` | Exercise Details | Form guidance and images for specific exercise |
-| `WorkoutExercises` | Workout List | List of workout types |
-| `WorkoutDetail` | Workout Details | Details and form tips for workout type |
-| `EquipmentExercises` | Equipment List | List of exercises by equipment |
-| `EquipmentDetail` | Equipment Details | Form guidance for equipment-specific exercises |
-| `Schedule` | Schedule Screen | Book trainer sessions within a week |
-| `Progress` | Progress Screen | View fitness progress and recent activity |
-| `Settings` | Settings Screen | Adjust app preferences and theme |
+| `login` | Login Screen | Email/password authentication with biometric option and saved email |
+| `sign_up` | Sign Up Screen | New user registration with account type selection (Athlete/Coach) |
+| `biometric_login` | Biometric Login | Fingerprint/face authentication with fallback to password |
+| `profile_creation` | Profile Creation | Complete profile onboarding after sign-up (age, weight, goals, picture) |
+| `home` | Home Screen | Dashboard with user greeting, quick stats, and recent activity |
+| `exercise` | Exercise Library | Tabbed interface (Muscle Groups, Workout Types, Equipment) |
+| `muscle_group_exercises` | Muscle Group List | List of exercises by muscle group with images |
+| `exercise_detail` | Exercise Details | Form guidance and images for specific exercise |
+| `workout_type_exercises` | Workout List | List of workout types (Strength, Yoga, Cardio, etc.) |
+| `workout_detail` | Workout Details | Details and form tips for workout type |
+| `equipment_exercises` | Equipment List | List of exercises by equipment type |
+| `equipment_detail` | Equipment Details | Form guidance for equipment-specific exercises |
+| `workouts` | Workouts List | List of user's saved workouts with edit/delete options |
+| `add_edit_workout` | Add/Edit Workout | Create or modify workout with exercise rows |
+| `profile` | User Profile | Display profile information with edit button |
+| `profile_edit` | Edit Profile | Modify user details (age, weight, goals, picture) with validation |
+| `schedule` | Schedule Screen | Book training sessions with trainers within a week range |
+| `progress` | Progress Screen | View fitness progress, recent activity, and statistics |
+| `settings` | Settings Screen | Adjust app preferences (theme, time format) and logout |
 
 ## Project Structure
 
@@ -320,4 +362,3 @@ cd "C:/Users/Mena/AndroidStudioProjects/Gym"
 ## License
 
 Internal development project.
-

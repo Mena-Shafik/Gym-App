@@ -7,7 +7,7 @@ import androidx.compose.material.icons.filled.BarChart
 import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.FitnessCenter
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.ViewList
+import androidx.compose.material.icons.automirrored.filled.ViewList
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -66,6 +66,7 @@ object AppRoutes {
     const val LOGIN = "login"
     const val SIGN_UP = "sign_up"
     const val BIOMETRIC_LOGIN = "biometric_login"
+    const val PROFILE_CREATION = "profile_creation"
 
     const val HOME = "home"
     const val EXERCISE = "exercise"
@@ -134,7 +135,7 @@ fun GymNavGraph(
     val navItems = listOf(
         MainNavItem(AppRoutes.HOME, "Home", Icons.Default.Home),
         MainNavItem(AppRoutes.EXERCISE, "Exercise", Icons.Default.FitnessCenter),
-        MainNavItem(AppRoutes.WORKOUTS, "Workouts", Icons.Default.ViewList),
+        MainNavItem(AppRoutes.WORKOUTS, "Workouts", Icons.AutoMirrored.Filled.ViewList),
         MainNavItem(AppRoutes.SCHEDULE, "Schedule", Icons.Default.CalendarMonth),
         MainNavItem(AppRoutes.PROGRESS, "Progress", Icons.Default.BarChart)
     )
@@ -197,7 +198,8 @@ fun GymNavGraph(
                         profileDataManager.saveProfile(updatedProfile)
                         accountDirectoryDataManager.addAccount(fullName, accountType)
                         isLoggedIn = true
-                        navController.navigate(AppRoutes.HOME) {
+                        // Navigate to profile creation instead of home
+                        navController.navigate(AppRoutes.PROFILE_CREATION) {
                             popUpTo(AppRoutes.LOGIN) { inclusive = true }
                         }
                     },
@@ -214,6 +216,24 @@ fun GymNavGraph(
                         }
                     },
                     onBackClick = { navController.popBackStack() }
+                )
+            }
+
+            composable(AppRoutes.PROFILE_CREATION) {
+                ProfileEditScreen(
+                    userProfile = userProfile,
+                    isNewUser = true,
+                    onSave = { updated ->
+                        userProfile = updated
+                        profileDataManager.saveProfile(updated)
+                        navController.navigate(AppRoutes.HOME) {
+                            popUpTo(AppRoutes.PROFILE_CREATION) { inclusive = true }
+                        }
+                    },
+                    onCancel = {
+                        // For new users, cancel goes back to sign up
+                        navController.popBackStack()
+                    }
                 )
             }
 
