@@ -1,0 +1,225 @@
+{
+  "workoutDetails": [
+    {
+      "name": "Barbell Squat",
+      "workoutType": "Strength",
+      "difficulty": "Intermediate",
+      "duration": "45 min",
+      "intensity": "High",
+      "instructions": [
+        "Warm up properly before starting the exercise",
+        "Position the barbell on your shoulders",
+        "Lower your body by bending your knees and hips",
+        "Go down until your thighs are parallel to the ground",
+        "Push through your heels to return to starting position"
+      ],
+      "tips": [
+        "Keep your chest up and core tight",
+        "Don't let your knees cave inward",
+        "Maintain a neutral spine",
+        "Use full range of motion for best results"
+      ]
+    },
+    {
+      "name": "Downward Dog",
+      "workoutType": "Yoga",
+      "difficulty": "Beginner",
+      "duration": "30 min",
+      "intensity": "Low",
+      "instructions": [
+        "Start on your hands and knees",
+        "Spread your fingers wide and press into the ground",
+        "Push your hips up toward the ceiling",
+        "Form an inverted V-shape with your body",
+        "Hold the position and breathe deeply"
+      ],
+      "tips": [
+        "This is a great stretch for hamstrings and shoulders",
+        "Press your hands firmly into the mat",
+        "Keep your head neutral between your arms",
+        "Hold for 30 seconds to 1 minute"
+      ]
+    },
+    {
+      "name": "Warrior I",
+      "workoutType": "Yoga",
+      "difficulty": "Beginner",
+      "duration": "25 min",
+      "intensity": "Medium",
+      "instructions": [
+        "Step one foot forward into a lunge position",
+        "Square your hips forward to the mat",
+        "Raise your arms overhead with palms facing each other",
+        "Sink deeper into the front leg bend",
+        "Hold for 5-8 breaths then repeat on other side"
+      ],
+      "tips": [
+        "Keep your front knee aligned over your ankle",
+        "Press your back foot firmly into the ground",
+        "Engage your core for stability",
+        "Open your chest toward the front of the mat"
+      ]
+    },
+    {
+      "name": "Warrior II",
+      "workoutType": "Yoga",
+      "difficulty": "Beginner",
+      "duration": "25 min",
+      "intensity": "Medium",
+      "instructions": [
+        "Stand with feet wide apart about 4 feet distance",
+        "Turn your front foot out 90 degrees and back foot 45 degrees",
+        "Raise your arms out to the sides at shoulder height",
+        "Bend your front knee over your ankle",
+        "Gaze forward over your front fingertips"
+      ],
+      "tips": [
+        "Keep your weight evenly distributed between both feet",
+        "Your front knee should track over your second toe",
+        "Relax your shoulders down and back",
+        "Hold for 30 seconds to 1 minute per side"
+      ]
+    },
+    {
+      "name": "Tree Pose",
+      "workoutType": "Yoga",
+      "difficulty": "Beginner",
+      "duration": "20 min",
+      "intensity": "Low",
+      "instructions": [
+        "Stand on one leg with the other leg bent",
+        "Place your bent leg's foot on your inner thigh",
+        "Press your palms together at your chest or raise them overhead",
+        "Fix your gaze on a single point ahead",
+        "Breathe deeply and hold the pose"
+      ],
+      "tips": [
+        "Engage your standing leg to stay balanced",
+        "If you lose balance, simply reset and try again",
+        "Press your foot firmly into your thigh",
+        "Keep your hips level and facing forward"
+      ]
+    },
+    {
+      "name": "Child's Pose",
+      "workoutType": "Yoga",
+      "difficulty": "Beginner",
+      "duration": "15 min",
+      "intensity": "Low",
+      "instructions": [
+        "Start on your hands and knees",
+        "Bring your big toes together and spread your knees wide",
+        "Sit your hips back to your heels",
+        "Extend your arms forward and rest your forehead on the mat",
+        "Breathe deeply and relax"
+      ],
+      "tips": [
+        "This is a restful pose good for recovery",
+        "You can place a pillow under your forehead for comfort",
+        "Keep your arms relaxed or extended",
+        "Hold for 1-5 minutes"
+      ]
+    },
+    {
+      "name": "Camel Pose",
+      "workoutType": "Yoga",
+      "difficulty": "Intermediate",
+      "duration": "20 min",
+      "intensity": "Medium",
+      "instructions": [
+        "Start in a kneeling position with knees hip-width apart",
+        "Place your hands on your lower back for support",
+        "Gently arch your back and press your hips forward",
+        "Slowly drop your head back",
+        "Hold and breathe deeply"
+      ],
+      "tips": [
+        "Keep your hips stacked over your knees",
+        "Don't force your head back, let gravity help",
+        "Engage your core to protect your lower back",
+        "Hold for 15-30 seconds"
+      ]
+    },
+    {
+      "name": "Running",
+      "workoutType": "Cardio",
+      "difficulty": "Beginner",
+      "duration": "60 min",
+      "intensity": "Medium",
+      "instructions": [
+        "Find a safe, flat running path",
+        "Warm up with a 5-minute walk or light jog",
+        "Maintain a steady pace that feels comfortable",
+        "Focus on your breathing and form",
+        "Cool down with a 5-minute walk"
+      ],
+      "tips": [
+        "Land on your midfoot, not your heels",
+        "Keep your arms at 90 degrees",
+        "Run at a conversational pace",
+        "Stay hydrated before and after"
+      ]
+    },
+    {
+      "name": "Push-ups",
+      "workoutType": "Calisthenics",
+      "difficulty": "Beginner",
+      "duration": "20 min",
+      "intensity": "Medium",
+      "instructions": [
+        "Start in a plank position",
+        "Place your hands shoulder-width apart",
+        "Lower your body until your chest nearly touches the ground",
+        "Push back up to starting position",
+        "Keep your body in a straight line"
+      ],
+      "tips": [
+        "Engage your core throughout the movement",
+        "Don't let your hips sag",
+        "Control the descent",
+        "Modify by doing push-ups on your knees if needed"
+      ]
+    },
+    {
+      "name": "Plank Hold",
+      "workoutType": "Balance Core Isometric",
+      "difficulty": "Beginner",
+      "duration": "15 min",
+      "intensity": "Medium",
+      "instructions": [
+        "Start in a forearm plank position",
+        "Keep your body straight from head to heels",
+        "Engage your core muscles",
+        "Hold the position for 30-60 seconds",
+        "Rest and repeat for multiple sets"
+      ],
+      "tips": [
+        "This exercise builds core strength",
+        "Don't let your hips drop",
+        "Keep your head neutral",
+        "Breathe steadily throughout"
+      ]
+    },
+    {
+      "name": "Box Jumps",
+      "workoutType": "Plyometric",
+      "difficulty": "Intermediate",
+      "duration": "30 min",
+      "intensity": "Very High",
+      "instructions": [
+        "Stand facing a stable elevated box or step",
+        "Bend your knees and swing your arms back",
+        "Explosively jump onto the box",
+        "Stand up fully on the box",
+        "Step down carefully and repeat"
+      ],
+      "tips": [
+        "Start with a lower box height",
+        "Focus on explosive power",
+        "Land softly on the balls of your feet",
+        "Rest adequately between sets"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,173 @@
+{
+  "muscleGroups": [
+    {
+      "id": 1,
+      "name": "Chest",
+      "displayName": "Chest",
+      "imageResId": "muscle_group_chest",
+      "exercises": [
+        "Bench Press",
+        "Incline Press",
+        "Dumbbell Flyes",
+        "Push-ups",
+        "Machine Chest Press",
+        "Cable Crossovers"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Back",
+      "displayName": "Back",
+      "imageResId": "muscle_group_back",
+      "exercises": [
+        "Pull-ups",
+        "Lat Pulldowns",
+        "Barbell Rows",
+        "Dumbbell Rows",
+        "T-Bar Rows",
+        "Reverse Flyes"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Shoulders",
+      "displayName": "Shoulders",
+      "imageResId": "muscle_group_shoulders",
+      "exercises": [
+        "Shoulder Press",
+        "Lateral Raises",
+        "Front Raises",
+        "Shrugs",
+        "Upright Rows",
+        "Machine Shoulder Press"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Biceps",
+      "displayName": "Biceps",
+      "imageResId": "muscle_group_biceps",
+      "exercises": [
+        "Barbell Curls",
+        "Dumbbell Curls",
+        "Hammer Curls",
+        "Cable Curls",
+        "Machine Curls",
+        "Preacher Curls"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Triceps",
+      "displayName": "Triceps",
+      "imageResId": "muscle_group_triceps",
+      "exercises": [
+        "Tricep Dips",
+        "Tricep Pushdowns",
+        "Overhead Extensions",
+        "Close Grip Press",
+        "Skull Crushers",
+        "Rope Pushdowns"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Quads",
+      "displayName": "Quads",
+      "imageResId": "muscle_group_quads",
+      "exercises": [
+        "Squats",
+        "Leg Press",
+        "Leg Extensions",
+        "Bulgarian Split Squats",
+        "Goblet Squats",
+        "Front Squats"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Hamstrings",
+      "displayName": "Hamstrings",
+      "imageResId": "ic_launcher_background",
+      "exercises": [
+        "Deadlifts",
+        "Leg Curls",
+        "Romanian Deadlifts",
+        "Nordic Curls",
+        "Good Mornings",
+        "Hip Thrusts"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Glutes",
+      "displayName": "Glutes",
+      "imageResId": "ic_launcher_background",
+      "exercises": [
+        "Squats",
+        "Hip Thrusts",
+        "Leg Press",
+        "Bulgarian Split Squats",
+        "Donkey Kicks",
+        "Cable Kickbacks"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Calves",
+      "displayName": "Calves",
+      "imageResId": "ic_launcher_background",
+      "exercises": [
+        "Calf Raises",
+        "Seated Calf Raises",
+        "Smith Machine Calf Raises",
+        "Leg Press Calf Raises",
+        "Jump Rope",
+        "Stair Climbing"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Core",
+      "displayName": "Core",
+      "imageResId": "ic_launcher_background",
+      "exercises": [
+        "Crunches",
+        "Planks",
+        "Leg Raises",
+        "Cable Crunches",
+        "Russian Twists",
+        "Hanging Knee Raises"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Full Body",
+      "displayName": "Full Body",
+      "imageResId": "ic_launcher_background",
+      "exercises": [
+        "Squats",
+        "Deadlifts",
+        "Bench Press",
+        "Rows",
+        "Push-ups",
+        "Burpees"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Forearms",
+      "displayName": "Forearms",
+      "imageResId": "ic_launcher_background",
+      "exercises": [
+        "Wrist Curls",
+        "Reverse Wrist Curls",
+        "Hammer Curls",
+        "Farmer Carries",
+        "Wrist Rollers",
+        "Plate Pinches"
+      ]
+    }
+  ]
+}
+

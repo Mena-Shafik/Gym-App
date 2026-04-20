@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neon_teal">#18FFF1</color>
+    <color name="neon_blue">#3EA6FF</color>
+    <color name="neon_cyan">#2A8FC0</color>
+    <color name="black">#1A1A1A</color>
+    <color name="dark_surface">#2A2A2A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="soft_white">#FAFAFA</color>
+    <color name="light_gray">#F0F0F0</color>
+    <color name="dark_text">#2C2C2C</color>
+</resources>

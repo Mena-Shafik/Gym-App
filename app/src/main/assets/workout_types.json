@@ -1,0 +1,103 @@
+{
+  "workoutTypes": [
+    {
+      "id": "STRENGTH",
+      "displayName": "Strength",
+      "exercises": [
+        "Barbell Squat",
+        "Deadlift",
+        "Bench Press",
+        "Overhead Press",
+        "Barbell Row",
+        "Pull-ups",
+        "Dips",
+        "Power Clean"
+      ]
+    },
+    {
+      "id": "YOGA",
+      "displayName": "Yoga",
+      "exercises": [
+        "Downward Dog",
+        "Warrior I",
+        "Warrior II",
+        "Tree Pose",
+        "Child's Pose",
+        "Cobra Pose",
+        "Plank Pose",
+        "Bridge Pose"
+      ]
+    },
+    {
+      "id": "STRETCHING",
+      "displayName": "Stretching",
+      "exercises": [
+        "Hamstring Stretch",
+        "Quad Stretch",
+        "Calf Stretch",
+        "Hip Flexor Stretch",
+        "Shoulder Stretch",
+        "Tricep Stretch",
+        "Chest Stretch",
+        "Back Stretch"
+      ]
+    },
+    {
+      "id": "CARDIO",
+      "displayName": "Cardio",
+      "exercises": [
+        "Running",
+        "Cycling",
+        "Jump Rope",
+        "Rowing",
+        "Burpees",
+        "Mountain Climbers",
+        "High Knees",
+        "Jumping Jacks"
+      ]
+    },
+    {
+      "id": "CALISTHENICS",
+      "displayName": "Calisthenics",
+      "exercises": [
+        "Push-ups",
+        "Pull-ups",
+        "Dips",
+        "Pistol Squats",
+        "Muscle-ups",
+        "L-Sit",
+        "Handstand Push-ups",
+        "Dragon Flag"
+      ]
+    },
+    {
+      "id": "BALANCE_CORE_ISOMETRIC",
+      "displayName": "Balance Core Isometric",
+      "exercises": [
+        "Plank",
+        "Side Plank",
+        "Wall Sit",
+        "Dead Hang",
+        "Hollow Body Hold",
+        "Single Leg Balance",
+        "Bird Dog",
+        "Boat Pose"
+      ]
+    },
+    {
+      "id": "PLYOMETRIC",
+      "displayName": "Plyometric",
+      "exercises": [
+        "Box Jumps",
+        "Depth Jumps",
+        "Broad Jumps",
+        "Tuck Jumps",
+        "Clap Push-ups",
+        "Jumping Lunges",
+        "Burpee Box Jump",
+        "Plyo Push-ups"
+      ]
+    }
+  ]
+}
+

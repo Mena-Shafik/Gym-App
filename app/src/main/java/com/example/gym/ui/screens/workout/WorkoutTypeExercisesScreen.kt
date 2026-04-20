@@ -1,0 +1,101 @@
+package com.example.gym.ui.screens.workout
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import com.example.gym.data.model.WorkoutType
+import com.example.gym.data.storage.ExerciseDataManager
+import com.example.gym.ui.composables.AppTopBar
+import com.example.gym.ui.composables.ExerciseListCard
+import com.example.gym.ui.theme.GradientBackground
+import com.example.gym.ui.theme.GymTheme
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun WorkoutTypeExercisesScreen(
+    workoutType: WorkoutType,
+    modifier: Modifier = Modifier,
+    onBackClick: () -> Unit = {},
+    onSettingsClick: () -> Unit = {},
+    onExerciseClick: (String) -> Unit = {}
+) {
+    val context = LocalContext.current
+    val exerciseDataManager = ExerciseDataManager(context)
+    val exercises = exerciseDataManager.getWorkoutExercises(workoutType)
+
+    Scaffold(
+        modifier = modifier.fillMaxSize(),
+        topBar = {
+            AppTopBar(
+                title = workoutType.displayName,
+                showBackButton = true,
+                showProfileIcon = false,
+                showSettingsIcon = true,
+                onBackClick = onBackClick,
+                onSettingsClick = onSettingsClick
+            )
+        }
+    ) { innerPadding ->
+        GradientBackground {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(innerPadding)
+                    .padding(16.dp),
+                verticalArrangement = Arrangement.Top
+            ) {
+                LazyColumn(
+                    modifier = Modifier.fillMaxSize(),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    items(exercises) { exercise ->
+                        ExerciseListCard(
+                            exerciseName = exercise,
+                            onClick = { onExerciseClick(exercise) }
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun WorkoutTypeExercisesScreenDarkPreview() {
+    GymTheme(darkTheme = true) {
+        Surface(modifier = Modifier.fillMaxSize()) {
+            WorkoutTypeExercisesScreen(
+                workoutType = WorkoutType.STRENGTH,
+                onBackClick = {},
+                onSettingsClick = {}
+            )
+        }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun WorkoutTypeExercisesScreenLightPreview() {
+    GymTheme(darkTheme = false) {
+        Surface(modifier = Modifier.fillMaxSize()) {
+            WorkoutTypeExercisesScreen(
+                workoutType = WorkoutType.YOGA,
+                onBackClick = {},
+                onSettingsClick = {}
+            )
+        }
+    }
+}
+

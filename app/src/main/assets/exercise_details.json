@@ -1,0 +1,245 @@
+{
+  "exercises": [
+    {
+      "name": "Bench Press",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "instructions": [
+        "Lie flat on a bench with feet firmly on the ground",
+        "Grip the barbell slightly wider than shoulder-width",
+        "Lower the barbell to your chest in a controlled manner",
+        "Press the barbell upward until arms are nearly fully extended",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Keep your shoulders retracted and chest up",
+        "Control the weight on the way down",
+        "Don't lock out completely at the top",
+        "Maintain a neutral spine throughout the movement"
+      ],
+      "sets": 4,
+      "reps": "6-10"
+    },
+    {
+      "name": "Incline Press",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "instructions": [
+        "Set the bench to an incline of 30-45 degrees",
+        "Grip the dumbells at shoulder height",
+        "Press the dumbbells upward and slightly forward",
+        "Lower back to starting position with control",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "The incline targets the upper chest more",
+        "Use controlled movements",
+        "Don't arch your back excessively",
+        "Squeeze your chest at the top"
+      ],
+      "sets": 3,
+      "reps": "8-12"
+    },
+    {
+      "name": "Dumbbell Flyes",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "instructions": [
+        "Lie flat on a bench with dumbbells held above your chest",
+        "Arms should have a slight bend throughout",
+        "Lower the dumbbells in an arc motion",
+        "Go until you feel a stretch in your chest",
+        "Bring dumbbells back to starting position using the same arc"
+      ],
+      "tips": [
+        "This is an isolation exercise for the chest",
+        "Maintain a slight bend in your elbows",
+        "Control the weight throughout",
+        "Feel the stretch at the bottom of the movement"
+      ],
+      "sets": 3,
+      "reps": "10-12"
+    },
+    {
+      "name": "Push-ups",
+      "muscleGroup": "Chest",
+      "difficulty": "Beginner",
+      "instructions": [
+        "Start in a plank position with hands shoulder-width apart",
+        "Lower your body until your chest nearly touches the ground",
+        "Push yourself back up to starting position",
+        "Keep your body in a straight line throughout",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Bodyweight exercise - no equipment needed",
+        "Engage your core throughout",
+        "Don't let your hips sag",
+        "Modify by doing push-ups on your knees if needed"
+      ],
+      "sets": 3,
+      "reps": "12-15"
+    },
+    {
+      "name": "Machine Chest Press",
+      "muscleGroup": "Chest",
+      "difficulty": "Beginner",
+      "instructions": [
+        "Adjust the machine seat so handles are at chest height",
+        "Grip the handles firmly",
+        "Press forward until arms are nearly extended",
+        "Return to starting position with control",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Great for beginners - machine provides stability",
+        "Use full range of motion",
+        "Don't lock out your elbows",
+        "Sit with back firmly against the pad"
+      ],
+      "sets": 3,
+      "reps": "10-12"
+    },
+    {
+      "name": "Cable Crossovers",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "instructions": [
+        "Stand in the middle of a cable machine",
+        "Set cables to shoulder height",
+        "Grab handles and step forward slightly",
+        "Pull cables together across your body",
+        "Return to starting position with control"
+      ],
+      "tips": [
+        "Great for chest isolation and pump",
+        "Squeeze your chest at the point of contraction",
+        "Control the weight on the way back",
+        "Use a slight forward lean for better contraction"
+      ],
+      "sets": 3,
+      "reps": "12-15"
+    },
+    {
+      "name": "Pull-ups",
+      "muscleGroup": "Back",
+      "difficulty": "Intermediate",
+      "instructions": [
+        "Grab the pull-up bar with hands shoulder-width apart",
+        "Hang with arms fully extended",
+        "Pull your body up until chin is above the bar",
+        "Lower yourself back down with control",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Engage your lats, not just your arms",
+        "Pull elbows down and back",
+        "Control the descent",
+        "Use assistance if needed"
+      ],
+      "sets": 3,
+      "reps": "6-10"
+    },
+    {
+      "name": "Lat Pulldowns",
+      "muscleGroup": "Back",
+      "difficulty": "Beginner",
+      "instructions": [
+        "Sit at the lat pulldown machine",
+        "Grip the bar slightly wider than shoulder-width",
+        "Pull the bar down to your chest",
+        "Return to starting position with control",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Great for beginners working toward pull-ups",
+        "Focus on pulling with your lats",
+        "Don't jerk the weight",
+        "Full range of motion is important"
+      ],
+      "sets": 3,
+      "reps": "10-12"
+    },
+    {
+      "name": "Barbell Rows",
+      "muscleGroup": "Back",
+      "difficulty": "Intermediate",
+      "instructions": [
+        "Bend at the hips until torso is nearly parallel to ground",
+        "Grab the barbell with a shoulder-width grip",
+        "Pull the barbell to your lower chest",
+        "Lower the bar back to starting position",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Keep your back straight throughout",
+        "Drive elbows back and up",
+        "Don't let the weight pull your shoulders forward",
+        "Use a controlled tempo"
+      ],
+      "sets": 4,
+      "reps": "6-10"
+    },
+    {
+      "name": "Dumbbell Rows",
+      "muscleGroup": "Back",
+      "difficulty": "Beginner",
+      "instructions": [
+        "Place one knee on a bench",
+        "Hold a dumbbell in the opposite hand",
+        "Pull the dumbbell up to your hip",
+        "Lower back to starting position",
+        "Repeat for desired reps then switch sides"
+      ],
+      "tips": [
+        "Great for working unilateral strength",
+        "Keep your back flat",
+        "Pull elbow close to your body",
+        "Squeeze your lat at the top"
+      ],
+      "sets": 3,
+      "reps": "10-12"
+    },
+    {
+      "name": "T-Bar Rows",
+      "muscleGroup": "Back",
+      "difficulty": "Intermediate",
+      "instructions": [
+        "Straddle the T-bar machine",
+        "Bend at hips with chest up",
+        "Grip the handles and pull upward",
+        "Lower back to starting position",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Excellent for mid-back development",
+        "Keep your torso relatively stable",
+        "Focus on the squeeze",
+        "Don't use excessive weight"
+      ],
+      "sets": 3,
+      "reps": "8-12"
+    },
+    {
+      "name": "Reverse Flyes",
+      "muscleGroup": "Back",
+      "difficulty": "Beginner",
+      "instructions": [
+        "Bend at the hips until torso is parallel to ground",
+        "Hold dumbbells with arms extended down",
+        "Raise dumbbells out to the sides",
+        "Lower back to starting position",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Great for posterior deltoids and upper back",
+        "Slight bend in elbows throughout",
+        "Control the weight",
+        "Squeeze shoulder blades together"
+      ],
+      "sets": 3,
+      "reps": "12-15"
+    }
+  ]
+}
+

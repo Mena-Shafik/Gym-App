@@ -1,0 +1,165 @@
+{
+  "equipmentDetails": [
+    {
+      "name": "Dumbbell Press",
+      "equipment": "Dumbbell",
+      "difficulty": "Beginner",
+      "sets": "3-4",
+      "reps": "8-12",
+      "instructions": [
+        "Sit on a bench with dumbbells at shoulder height",
+        "Press the dumbbells upward and slightly forward",
+        "Lower back to starting position with control",
+        "Keep your core engaged throughout",
+        "Repeat for desired number of reps"
+      ],
+      "tips": [
+        "Great for building upper body strength",
+        "Always use proper form over heavy weight",
+        "Start light and progress gradually",
+        "Maintain a neutral spine"
+      ]
+    },
+    {
+      "name": "Barbell Squat",
+      "equipment": "Barbell",
+      "difficulty": "Intermediate",
+      "sets": "4-5",
+      "reps": "6-10",
+      "instructions": [
+        "Place the barbell on your shoulders",
+        "Position your feet shoulder-width apart",
+        "Lower your body by bending knees and hips",
+        "Keep your chest up and core tight",
+        "Push through your heels to stand back up"
+      ],
+      "tips": [
+        "This is a compound exercise for leg strength",
+        "Don't let your knees cave inward",
+        "Go as low as your mobility allows",
+        "Use proper breathing technique"
+      ]
+    },
+    {
+      "name": "Cable Row",
+      "equipment": "Cable",
+      "difficulty": "Beginner",
+      "sets": "3-4",
+      "reps": "10-12",
+      "instructions": [
+        "Sit at the cable machine facing it",
+        "Grab the handle with both hands",
+        "Pull the handle toward your chest",
+        "Squeeze your back muscles at the top",
+        "Return to starting position with control"
+      ],
+      "tips": [
+        "Great for back development",
+        "Keep your shoulders back",
+        "Don't use momentum",
+        "Focus on the mind-muscle connection"
+      ]
+    },
+    {
+      "name": "Leg Press",
+      "equipment": "Machine",
+      "difficulty": "Beginner",
+      "sets": "3-4",
+      "reps": "10-15",
+      "instructions": [
+        "Sit in the machine with back against the pad",
+        "Place your feet on the platform shoulder-width apart",
+        "Lower the weight by bending your knees",
+        "Push through your heels to extend your legs",
+        "Don't lock your knees at the top"
+      ],
+      "tips": [
+        "Machine provides stability for beginners",
+        "Use full range of motion",
+        "Don't go too heavy too fast",
+        "Great for leg strength building"
+      ]
+    },
+    {
+      "name": "Kettlebell Swing",
+      "equipment": "Kettlebell",
+      "difficulty": "Intermediate",
+      "sets": "3-4",
+      "reps": "15-20",
+      "instructions": [
+        "Stand with feet shoulder-width apart",
+        "Bend your knees and hinge at the hips",
+        "Swing the kettlebell between your legs",
+        "Explosively swing it up to chest height",
+        "Control the descent and repeat"
+      ],
+      "tips": [
+        "Explosive hip power movement",
+        "Keep your core engaged",
+        "Don't use your arms to lift",
+        "Use your hips as the power source"
+      ]
+    },
+    {
+      "name": "Push-ups",
+      "equipment": "Bodyweight",
+      "difficulty": "Beginner",
+      "sets": "3-4",
+      "reps": "12-20",
+      "instructions": [
+        "Start in a plank position with hands shoulder-width apart",
+        "Lower your body until chest nearly touches ground",
+        "Push yourself back up to starting position",
+        "Keep your body in a straight line",
+        "Maintain proper core engagement"
+      ],
+      "tips": [
+        "No equipment needed",
+        "Can be modified on knees",
+        "Great for upper body strength",
+        "Control the descent for better results"
+      ]
+    },
+    {
+      "name": "Dumbbell Curl",
+      "equipment": "Dumbbell",
+      "difficulty": "Beginner",
+      "sets": "3-4",
+      "reps": "8-12",
+      "instructions": [
+        "Stand with dumbbells at your sides",
+        "Keep your elbows close to your body",
+        "Curl the dumbbells up to shoulder height",
+        "Lower back to starting position with control",
+        "Squeeze your biceps at the top"
+      ],
+      "tips": [
+        "Isolation exercise for biceps",
+        "Don't swing the weight",
+        "Control both the lifting and lowering",
+        "Start with lighter weight"
+      ]
+    },
+    {
+      "name": "Cable Machine Chest Fly",
+      "equipment": "Cable",
+      "difficulty": "Intermediate",
+      "sets": "3-4",
+      "reps": "10-12",
+      "instructions": [
+        "Set cables to shoulder height",
+        "Stand in the middle facing away from the machine",
+        "Grab handles with cables set out to sides",
+        "Pull handles together across your body",
+        "Squeeze your chest and return to start"
+      ],
+      "tips": [
+        "Great for chest isolation",
+        "Maintain a slight bend in elbows",
+        "Controlled movements only",
+        "Squeeze at the peak of contraction"
+      ]
+    }
+  ]
+}
+

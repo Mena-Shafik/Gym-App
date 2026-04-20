@@ -1,0 +1,89 @@
+{
+  "equipmentTypes": [
+    {
+      "id": "BODYWEIGHT",
+      "displayName": "Bodyweight",
+      "exercises": [
+        "Push-ups",
+        "Pull-ups",
+        "Squats",
+        "Lunges",
+        "Dips",
+        "Plank",
+        "Burpees",
+        "Mountain Climbers"
+      ]
+    },
+    {
+      "id": "DUMBBELL",
+      "displayName": "Dumbbell",
+      "exercises": [
+        "Dumbbell Press",
+        "Dumbbell Row",
+        "Dumbbell Curl",
+        "Dumbbell Fly",
+        "Dumbbell Lateral Raise",
+        "Dumbbell Shrug",
+        "Dumbbell Squat",
+        "Dumbbell Lunge"
+      ]
+    },
+    {
+      "id": "BARBELL",
+      "displayName": "Barbell",
+      "exercises": [
+        "Barbell Squat",
+        "Deadlift",
+        "Bench Press",
+        "Overhead Press",
+        "Barbell Row",
+        "Romanian Deadlift",
+        "Front Squat",
+        "Barbell Curl"
+      ]
+    },
+    {
+      "id": "CABLE",
+      "displayName": "Cable",
+      "exercises": [
+        "Cable Crossover",
+        "Cable Row",
+        "Cable Curl",
+        "Cable Tricep Extension",
+        "Cable Lateral Raise",
+        "Cable Face Pull",
+        "Cable Crunch",
+        "Cable Woodchop"
+      ]
+    },
+    {
+      "id": "MACHINE",
+      "displayName": "Machine",
+      "exercises": [
+        "Leg Press",
+        "Leg Extension",
+        "Leg Curl",
+        "Chest Press",
+        "Lat Pulldown",
+        "Seated Row",
+        "Shoulder Press",
+        "Calf Raise"
+      ]
+    },
+    {
+      "id": "KETTLEBELL",
+      "displayName": "Kettlebell",
+      "exercises": [
+        "Kettlebell Swing",
+        "Kettlebell Goblet Squat",
+        "Kettlebell Snatch",
+        "Kettlebell Clean",
+        "Kettlebell Turkish Get-up",
+        "Kettlebell Windmill",
+        "Kettlebell Press",
+        "Kettlebell Row"
+      ]
+    }
+  ]
+}
+
